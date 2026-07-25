@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .hex { fill: none; stroke-width: 7; stroke-linejoin: round; stroke: #1e3a8a; }
+    .tl  { fill: #1e3a8a; }
+    .ts  { fill: #2563eb; }
+    @media (prefers-color-scheme: dark) {
+      .hex { stroke: #ffffff; }
+      .tl  { fill: #ffffff; }
+      .ts  { fill: #ffffff; }
+    }
+  </style>
+  <polygon class="hex" points="50,4 93,27 93,73 50,96 7,73 7,27"/>
+  <text class="tl" x="10" y="72" font-family="Arial Black,Arial" font-weight="900" font-size="52">L</text>
+  <text class="ts" x="50" y="72" font-family="Arial Black,Arial" font-weight="900" font-size="52">S</text>
+</svg>
