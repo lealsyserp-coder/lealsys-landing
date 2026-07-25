@@ -110,10 +110,10 @@ export function Hero() {
 
               {/* Screenshot */}
               <Image
-                src="/dashboard-preview.png"
+                src="/dashboard-preview.jpg"
                 alt="Dashboard de Lealsys ERP — resumen financiero, ingresos, gastos, cartera e inventario en tiempo real"
-                width={3386}
-                height={1786}
+                width={1400}
+                height={738}
                 priority
                 className="w-full h-auto block"
               />
