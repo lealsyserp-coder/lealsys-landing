@@ -51,7 +51,7 @@ export function Features() {
             Funcionalidades
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">
-            Todo lo que tu PYME necesita
+            Módulos ERP completos: facturación, contabilidad e inventario
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             Reemplazá Excel, hojas sueltas y sistemas viejos con una sola herramienta.
