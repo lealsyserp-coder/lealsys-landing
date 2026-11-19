@@ -80,15 +80,15 @@ export function DemoForm() {
             <div className="mt-8 pt-6 border-t border-slate-200 space-y-2.5 text-sm">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-600 hover:text-slate-900 transition-colors">
                 <MessageCircle size={16} className="text-[#25D366]" />
-                <span><strong>WhatsApp:</strong> +504 3223-5185</span>
-              </a>
-              <a href="mailto:info@lealsys.com" className="flex items-center gap-3 text-slate-600 hover:text-slate-900 transition-colors">
-                <Mail size={16} className="text-blue-600" />
-                <span><strong>Email:</strong> info@lealsys.com</span>
+                <span><strong>WhatsApp:</strong> +504 3221-8864</span>
               </a>
               <a href="tel:+50432235185" className="flex items-center gap-3 text-slate-600 hover:text-slate-900 transition-colors">
                 <Phone size={16} className="text-blue-600" />
                 <span><strong>Teléfono:</strong> +504 3223-5185</span>
+              </a>
+              <a href="mailto:info@lealsys.com" className="flex items-center gap-3 text-slate-600 hover:text-slate-900 transition-colors">
+                <Mail size={16} className="text-blue-600" />
+                <span><strong>Email:</strong> info@lealsys.com</span>
               </a>
             </div>
           </Reveal>
