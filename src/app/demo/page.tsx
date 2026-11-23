@@ -16,10 +16,10 @@ export default function DemoPage() {
           <p className="mt-2 text-slate-500 text-sm">Elige el día y la hora que mejor te quede. Sin compromiso.</p>
         </div>
 
-        <div className="w-full max-w-3xl bg-white rounded-2xl overflow-hidden shadow-2xl">
+        <div className="w-full max-w-5xl bg-white rounded-2xl overflow-hidden shadow-xl border border-slate-200">
           <InlineWidget
             url="https://calendly.com/lealsyserp/30min"
-            styles={{ height: '700px', minWidth: '320px' }}
+            styles={{ height: '750px', minWidth: '320px' }}
           />
         </div>
       </main>
