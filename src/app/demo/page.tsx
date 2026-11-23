@@ -42,6 +42,10 @@ export default function DemoPage() {
             <p className="text-sm text-slate-600 leading-relaxed">
               ¡Hola! Esta reunión es para conocer más de tu empresa y mostrarte cómo Lealsys puede ayudarte a crecer. La demo dura 30 minutos.
             </p>
+
+            <div className="mt-auto pt-8 flex gap-4 text-xs text-blue-600">
+              <a href="/privacidad" className="hover:underline">Política de privacidad</a>
+            </div>
           </div>
 
           {/* Right panel — Calendly calendar only */}
