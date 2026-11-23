@@ -68,7 +68,7 @@ export function Pricing() {
 
               <div className="mt-8 space-y-3">
                 <a
-                  href="#demo"
+                  href="/demo"
                   className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 bg-blue-500 hover:bg-blue-400 text-white rounded-lg font-semibold transition-colors shadow-md shadow-blue-900/30"
                 >
                   <MessageCircle size={16} />

@@ -137,7 +137,7 @@ export function Header() {
             Iniciar sesión
           </a>
           <a
-            href="/#demo"
+            href="/demo"
             className="text-base px-5 py-2.5 bg-slate-900 text-white rounded-md hover:bg-slate-800 transition-colors font-semibold shadow-sm"
           >
             Solicitar demo
@@ -192,7 +192,7 @@ export function Header() {
           <div className="border-t border-slate-100 mt-2 pt-3 flex flex-col gap-2">
             <a href={APP_URL} className="text-base text-slate-800 font-medium py-2.5 px-2">Iniciar sesión</a>
             <a
-              href="#demo"
+              href="/demo"
               onClick={() => setOpen(false)}
               className="text-base px-4 py-3 bg-slate-900 text-white rounded-md text-center font-semibold"
             >

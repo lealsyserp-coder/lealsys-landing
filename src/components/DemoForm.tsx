@@ -1,11 +1,7 @@
-'use client'
-
-import { Phone, Mail, MessageCircle, Clock, ShieldCheck, Users } from 'lucide-react'
-import { InlineWidget } from 'react-calendly'
+import Link from 'next/link'
+import { Phone, Mail, MessageCircle, Clock, ShieldCheck, Users, CalendarDays } from 'lucide-react'
 import { Reveal } from './Reveal'
 import { WHATSAPP_URL } from '@/lib/siteConfig'
-
-const CALENDLY_URL = 'https://calendly.com/lealsyserp/30min'
 
 export function DemoForm() {
   return (
@@ -16,7 +12,7 @@ export function DemoForm() {
       />
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <Reveal>
             <p className="text-xs font-semibold text-blue-600 uppercase tracking-[0.18em]">
               Demo gratis
@@ -63,11 +59,24 @@ export function DemoForm() {
             </div>
           </Reveal>
 
-          <Reveal delay={120} className="bg-white rounded-2xl border border-slate-200 shadow-xl shadow-slate-200/50 overflow-hidden">
-            <InlineWidget
-              url={CALENDLY_URL}
-              styles={{ height: '660px', minWidth: '320px' }}
-            />
+          <Reveal delay={120}>
+            <div className="bg-white rounded-2xl p-8 sm:p-10 border border-slate-200 shadow-xl shadow-slate-200/50 text-center">
+              <div className="h-16 w-16 mx-auto rounded-2xl bg-blue-600 flex items-center justify-center mb-6">
+                <CalendarDays size={28} className="text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Agenda tu demo ahora</h3>
+              <p className="text-slate-600 text-sm mb-8 leading-relaxed">
+                Elige el día y la hora que mejor te quede. Recibirás la confirmación por correo con el enlace de la reunión.
+              </p>
+              <Link
+                href="/demo"
+                className="inline-flex items-center justify-center gap-2 w-full py-3.5 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition-colors shadow-md shadow-blue-600/20 text-sm"
+              >
+                <CalendarDays size={16} />
+                Ver disponibilidad y agendar
+              </Link>
+              <p className="mt-4 text-xs text-slate-400">30 minutos · Sin compromiso · Cancelación gratuita</p>
+            </div>
           </Reveal>
         </div>
       </div>

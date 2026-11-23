@@ -41,7 +41,7 @@ export function Hero() {
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
               <a
-                href="#demo"
+                href="/demo"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg shadow-blue-600/20"
               >
                 Solicitar demo gratis
