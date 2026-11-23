@@ -75,7 +75,6 @@ export function DemoForm() {
                 <CalendarDays size={16} />
                 Ver disponibilidad y agendar
               </Link>
-              <p className="mt-4 text-xs text-slate-400">30 minutos · Sin compromiso · Cancelación gratuita</p>
             </div>
           </Reveal>
         </div>
